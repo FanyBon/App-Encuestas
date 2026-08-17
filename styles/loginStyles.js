@@ -1,0 +1,143 @@
+import { StyleSheet } from 'react-native';
+
+export const MORADO = '#3d263a';
+export const SALMON = '#ff9e71';
+export const MEDIO = '#6b3a52';
+
+export default StyleSheet.create({
+  flex: { flex: 1 },
+  background: {
+    flex: 1,
+    backgroundColor: MORADO,
+  },
+  container: {
+    flexGrow: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    padding: 24,
+    paddingTop: 60,
+    paddingBottom: 40,
+  },
+  logoArea: {
+    alignItems: 'center',
+    marginBottom: 24,
+  },
+  logoCircle: {
+    width: 80,
+    height: 80,
+    borderRadius: 40,
+    backgroundColor: 'rgba(255,158,113,0.15)',
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginBottom: 10,
+    borderWidth: 2,
+    borderColor: SALMON,
+  },
+  logoTexto: {
+    fontSize: 36,
+    fontWeight: '800',
+    color: SALMON,
+  },
+  logoNombre: {
+    fontSize: 28,
+    fontWeight: '800',
+    color: '#fff',
+    letterSpacing: 3,
+  },
+  logoSlogan: {
+    fontSize: 11,
+    color: SALMON,
+    letterSpacing: 2,
+    marginTop: 4,
+    textTransform: 'uppercase',
+  },
+  card: {
+    backgroundColor: '#fdf8f6',
+    borderRadius: 16,
+    padding: 24,
+    width: '100%',
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 8 },
+    shadowOpacity: 0.3,
+    shadowRadius: 20,
+    elevation: 10,
+  },
+  divider: {
+    height: 1,
+    backgroundColor: SALMON,
+    opacity: 0.4,
+    marginBottom: 16,
+  },
+  welcomeTitle: {
+    fontSize: 18,
+    fontWeight: '700',
+    color: MORADO,
+    textAlign: 'center',
+    marginBottom: 4,
+  },
+  welcomeSub: {
+    fontSize: 13,
+    color: '#7a5f76',
+    textAlign: 'center',
+    marginBottom: 20,
+  },
+  label: {
+    fontSize: 12,
+    fontWeight: '700',
+    color: MORADO,
+    marginBottom: 6,
+    marginTop: 12,
+    letterSpacing: 0.3,
+  },
+  inputWrap: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: '#fff',
+    borderWidth: 1.5,
+    borderColor: '#d4b8cf',
+    borderRadius: 8,
+    paddingHorizontal: 12,
+  },
+  input: {
+    flex: 1,
+    paddingVertical: 11,
+    fontSize: 14,
+    color: MORADO,
+  },
+  iconBtn: {
+    padding: 6,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  iconText: {
+    fontSize: 13,
+    color: '#7a5f76',
+    fontWeight: '600',
+  },
+  errorBox: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: '#fee2e2',
+    borderWidth: 1,
+    borderColor: '#f87171',
+    borderRadius: 8,
+    padding: 10,
+    marginTop: 12,
+    gap: 8,
+  },
+  errorText: { fontSize: 13, color: '#b91c1c', flex: 1 },
+  btnPrimary: {
+    backgroundColor: MORADO,
+    borderRadius: 8,
+    padding: 13,
+    alignItems: 'center',
+    marginTop: 20,
+  },
+  btnDisabled: { opacity: 0.6 },
+  btnPrimaryText: {
+    color: '#fff',
+    fontSize: 15,
+    fontWeight: '700',
+    letterSpacing: 0.3,
+  },
+});

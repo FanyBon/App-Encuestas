@@ -1,0 +1,246 @@
+export const PREGUNTAS_COCINA = [
+  // BLOQUE 1: Higiene Personal
+  {
+    id: 'c1',
+    bloque: 'Higiene Personal y Uniforme',
+    texto: '¿El personal porta uniforme completo, limpio y de uso exclusivo (filipina, pantalón, mandil y botas antiderrapantes)?',
+    opciones: ['Cumple', 'Cumple parcialmente', 'No cumple'],
+    requiereFoto: true,
+  },
+  {
+    id: 'c2',
+    bloque: 'Higiene Personal y Uniforme',
+    texto: '¿El cabello está 100% recogido y cubierto por cofia o red, sin mechones o flecos expuestos?',
+    opciones: ['Cumple', 'Cumple parcialmente', 'No cumple'],
+    requiereFoto: true,
+  },
+  {
+    id: 'c3',
+    bloque: 'Higiene Personal y Uniforme',
+    texto: '¿Los hombres con barba/bigote utilizan cubre-barba además del cubrebocas?',
+    opciones: ['Cumple', 'No aplica', 'No cumple'],
+    requiereFoto: true,
+  },
+  {
+    id: 'c4',
+    bloque: 'Higiene Personal y Uniforme',
+    texto: '¿El personal está libre de joyería (anillos, aretes, piercings, relojes, pulseras)?',
+    opciones: ['Cumple', 'Cumple parcialmente', 'No cumple'],
+    requiereFoto: false,
+  },
+  {
+    id: 'c5',
+    bloque: 'Higiene Personal y Uniforme',
+    texto: '¿Las uñas están cortas, limpias y sin esmalte ni uñas postizas?',
+    opciones: ['Cumple', 'Cumple parcialmente', 'No cumple'],
+    requiereFoto: true,
+  },
+  {
+    id: 'c6',
+    bloque: 'Higiene Personal y Uniforme',
+    texto: '¿El personal se lava y desinfecta las manos correctamente antes de iniciar y al cambiar de actividad?',
+    opciones: ['Siempre', 'A veces', 'No cumple'],
+    requiereFoto: false,
+  },
+  // BLOQUE 2: Control de Cocción
+  {
+    id: 'c7',
+    bloque: 'Control de Coccion y Procesos',
+    texto: '¿Se toman y registran las temperaturas de coccion de las proteinas? (Pollo min 74C, res 69C)',
+    opciones: ['Cumple', 'Cumple parcialmente', 'No cumple'],
+    requiereFoto: false,
+  },
+  {
+    id: 'c8',
+    bloque: 'Control de Coccion y Procesos',
+    texto: '¿Los alimentos en espera se mantienen a temperatura correcta? (Calientes +60C, frios -4C)',
+    opciones: ['Cumple', 'Cumple parcialmente', 'No cumple'],
+    requiereFoto: false,
+  },
+  {
+    id: 'c9',
+    bloque: 'Control de Coccion y Procesos',
+    texto: '¿Se usan tablas de picar por colores correctamente? (Azul: Pescado, Roja: Carne, Amarilla: Aves, Verde: Verduras)',
+    opciones: ['Cumple', 'Cumple parcialmente', 'No cumple'],
+    requiereFoto: true,
+  },
+  {
+    id: 'c10',
+    bloque: 'Control de Coccion y Procesos',
+    texto: '¿Se aplica el sistema PEPS y todo esta etiquetado con fecha de preparacion y caducidad?',
+    opciones: ['Cumple', 'Cumple parcialmente', 'No cumple'],
+    requiereFoto: true,
+  },
+  // BLOQUE 3: Orden y Limpieza
+  {
+    id: 'c11',
+    bloque: 'Orden y Limpieza',
+    texto: '¿Las superficies de trabajo estan limpias y libres de objetos ajenos (celulares, llaves, cajetillas)?',
+    opciones: ['Cumple', 'Cumple parcialmente', 'No cumple'],
+    requiereFoto: true,
+  },
+  {
+    id: 'c12',
+    bloque: 'Orden y Limpieza',
+    texto: '¿Los limpiones estan sumergidos en solucion desinfectante y diferenciados por zona?',
+    opciones: ['Cumple', 'Cumple parcialmente', 'No cumple'],
+    requiereFoto: false,
+  },
+  {
+    id: 'c13',
+    bloque: 'Orden y Limpieza',
+    texto: '¿El piso se mantiene seco, limpio y libre de residuos durante la operacion?',
+    opciones: ['Cumple', 'Cumple parcialmente', 'No cumple'],
+    requiereFoto: true,
+  },
+  {
+    id: 'c14',
+    bloque: 'Orden y Limpieza',
+    texto: '¿Se evita que el personal consuma alimentos, bebidas, fume o mastique chicle en el area?',
+    opciones: ['Cumple', 'No cumple'],
+    requiereFoto: false,
+  },
+  // BLOQUE 4: Instalaciones
+  {
+    id: 'c15',
+    bloque: 'Instalaciones',
+    texto: '¿Las mesas, sillas y barra de servicio estan limpias y desinfectadas?',
+    opciones: ['Cumple', 'Cumple parcialmente', 'No cumple'],
+    requiereFoto: true,
+  },
+  {
+    id: 'c16',
+    bloque: 'Instalaciones',
+    texto: '¿Las estaciones de cafe, aderezos y agua estan limpias y ordenadas?',
+    opciones: ['Cumple', 'Cumple parcialmente', 'No cumple'],
+    requiereFoto: true,
+  },
+  {
+    id: 'c17',
+    bloque: 'Instalaciones',
+    texto: '¿Los botes de basura tienen bolsa, tapa de pedal y no estan desbordados?',
+    opciones: ['Cumple', 'Cumple parcialmente', 'No cumple'],
+    requiereFoto: true,
+  },
+  {
+    id: 'c18',
+    bloque: 'Instalaciones',
+    texto: '¿El area de lavado de loza mantiene orden y separacion de residuos?',
+    opciones: ['Cumple', 'Cumple parcialmente', 'No cumple'],
+    requiereFoto: true,
+  },
+  // Observaciones
+  {
+    id: 'c19',
+    bloque: 'Observaciones',
+    texto: 'Observaciones adicionales o incidencias relevantes',
+    opciones: null,
+    requiereFoto: false,
+  },
+];
+
+export const PREGUNTAS_USUARIO = [
+  // BLOQUE 1: Satisfaccion
+  {
+    id: 'u1',
+    bloque: 'Satisfaccion del Usuario',
+    texto: '¿La temperatura de los alimentos al momento de servirse es la adecuada?',
+    opciones: ['Si, correcta', 'Regular', 'No, incorrecta'],
+    requiereFoto: false,
+  },
+  {
+    id: 'u2',
+    bloque: 'Satisfaccion del Usuario',
+    texto: '¿El sabor, sazon y coccion de los alimentos fue de su agrado?',
+    opciones: ['Excelente', 'Bueno', 'Regular', 'Malo'],
+    requiereFoto: false,
+  },
+  {
+    id: 'u3',
+    bloque: 'Satisfaccion del Usuario',
+    texto: '¿La variedad del menu cumple con sus expectativas nutricionales y de gusto?',
+    opciones: ['Si, cumple', 'Parcialmente', 'No cumple'],
+    requiereFoto: false,
+  },
+  {
+    id: 'u4',
+    bloque: 'Satisfaccion del Usuario',
+    texto: '¿El tamano de la porcion servida fue suficiente?',
+    opciones: ['Si, suficiente', 'Podria ser mas', 'No fue suficiente'],
+    requiereFoto: false,
+  },
+  // BLOQUE 2: Calidad del Plato
+  {
+    id: 'u5',
+    bloque: 'Calidad del Plato',
+    texto: '¿La comida caliente y fria se sirvio a la temperatura adecuada para su consumo?',
+    opciones: ['Si', 'Regular', 'No'],
+    requiereFoto: false,
+  },
+  {
+    id: 'u6',
+    bloque: 'Calidad del Plato',
+    texto: '¿Los alimentos tienen el termino correcto? (arroz no batido, carne no dura, verduras crujientes)',
+    opciones: ['Cumple', 'Cumple parcialmente', 'No cumple'],
+    requiereFoto: false,
+  },
+  {
+    id: 'u7',
+    bloque: 'Calidad del Plato',
+    texto: '¿El sabor y nivel de sal de los alimentos fueron de su agrado?',
+    opciones: ['Excelente', 'Bueno', 'Regular', 'Malo'],
+    requiereFoto: false,
+  },
+  // BLOQUE 3: Higiene Percibida
+  {
+    id: 'u8',
+    bloque: 'Higiene Percibida',
+    texto: '¿El platillo esta 100% libre de elementos ajenos? (cabello, insecto, plastico, etc)',
+    opciones: ['Si, libre', 'No, encontre algo'],
+    requiereFoto: true,
+  },
+  {
+    id: 'u9',
+    bloque: 'Higiene Percibida',
+    texto: '¿El plato, vaso, charola y cubiertos estaban limpios, secos y sin manchas de grasa?',
+    opciones: ['Si, limpios', 'Parcialmente', 'No, sucios'],
+    requiereFoto: true,
+  },
+  // BLOQUE 4: Servicio
+  {
+    id: 'u10',
+    bloque: 'Experiencia de Servicio',
+    texto: '¿La cantidad de alimento servida corresponde a lo que consideras una porcion justa?',
+    opciones: ['Si, justa', 'Podria ser mas', 'Excesivamente poca'],
+    requiereFoto: false,
+  },
+  {
+    id: 'u11',
+    bloque: 'Experiencia de Servicio',
+    texto: '¿El personal te atendio de manera amable, te saludo y mostro actitud servicial?',
+    opciones: ['Excelente', 'Bueno', 'Regular', 'Malo'],
+    requiereFoto: false,
+  },
+  {
+    id: 'u12',
+    bloque: 'Experiencia de Servicio',
+    texto: '¿La persona que te sirvio tenia uniforme limpio, cubrebocas bien puesto y cofia cubriendo su cabello?',
+    opciones: ['Si, completo', 'Parcialmente', 'No cumple'],
+    requiereFoto: false,
+  },
+  {
+    id: 'u13',
+    bloque: 'Experiencia de Servicio',
+    texto: '¿El tiempo de espera en la fila para recibir tu plato fue rapido y aceptable?',
+    opciones: ['Si, rapido', 'Regular', 'No, demasiado tiempo'],
+    requiereFoto: false,
+  },
+  // Observaciones
+  {
+    id: 'u14',
+    bloque: 'Observaciones',
+    texto: 'Comentarios adicionales o sugerencias',
+    opciones: null,
+    requiereFoto: false,
+  },
+];
